@@ -179,10 +179,21 @@ body {
 .main-hero h1:first-child span {
   animation: heroAnim 0.75s ease 0.2s forwards;
 }
+@media screen and (max-width: 640px) {
+  .main-hero h1:first-child span {
+    font-family: "Axiforma", sans-serif;
+  }
+}
 .main-hero h1:last-child span {
   color: transparent;
   -webkit-text-stroke: 3px #fff;
   animation: heroAnim 0.75s ease 0.4s forwards;
+}
+@media screen and (max-width: 640px) {
+  .main-hero h1:last-child span {
+    font-family: "Axiforma", sans-serif;
+    -webkit-text-stroke: 1px #fff;
+  }
 }
 @keyframes heroAnim {
   0% {

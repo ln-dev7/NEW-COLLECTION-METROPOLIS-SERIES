@@ -190,6 +190,11 @@ body {
       span {
         animation: heroAnim 0.75s ease 0.2s forwards;
       }
+      @media screen and (max-width: 640px) {
+        span {
+          font-family: "Axiforma", sans-serif;
+        }
+      }
     }
     h1:last-child {
       span {
@@ -197,6 +202,12 @@ body {
         -webkit-text-stroke: 3px #fff;
 
         animation: heroAnim 0.75s ease 0.4s forwards;
+      }
+      @media screen and (max-width: 640px) {
+        span {
+          font-family: "Axiforma", sans-serif;
+          -webkit-text-stroke: 1px #fff;
+        }
       }
     }
 
